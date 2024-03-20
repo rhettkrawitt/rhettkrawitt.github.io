@@ -1,7 +1,11 @@
-p {
-    color: red;
+.dog {
+    border: 2px blue solid;
 }
 
-#link-intro {
-    font-size: small;
+.horse {
+    color: purple
+}
+
+body {
+    background-color: aliceblue;
 }
