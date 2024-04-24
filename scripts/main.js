@@ -31,8 +31,10 @@ console.log("Task 4")
 //Task 5
 console.log("Task 5")
     for (let i = 1; i <= 10; i++) {
-        for (let j = 1; j < 10; j++) {
-            let multiplyBy = i - j;
-            ;
+        let jMultiplied = 1
+        for (let j = 1; j < i; j++) {
+        jMultiplied = jMultiplied * j;
         }
+        let factorial = jMultiplied * i;
+        console.log(factorial)
     }
