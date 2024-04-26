@@ -68,7 +68,7 @@ console.log("Task 9")
     arr9.push(1); 
     arr9.push(1);
     for (let i = 1; i <= 8; i++) {
-        sum = arr9[i] + arr9[i-1];
+        let sum = arr9[i] + arr9[i-1];
         arr9.push(sum)
     }
     console.log(arr9)
