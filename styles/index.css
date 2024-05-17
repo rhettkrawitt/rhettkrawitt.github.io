@@ -1,11 +1,15 @@
-.dog {
-    border: 2px blue solid;
+#maintitle {
+    color: #ff0f0f;
+    background-color: black;
+    margin: 10px 50px 20px 0;
+    font-size: 100px;
 }
 
-.horse {
-    color: purple
+#logo {
+    width: 20%;
+    height: auto;
 }
 
-body {
-    background-color: aliceblue;
+#subtitle {
+    color: #434b53;
 }
