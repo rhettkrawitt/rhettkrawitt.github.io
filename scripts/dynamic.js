@@ -1,4 +1,4 @@
-let colors = ["red", "green", "lime", "navy", "blue", "aqua", "azure"];
+let colors = ["red", "green", "lime", "navy", "blue", "aqua", "azure",];
 
 let ul = document.createElement("ul");
 
