@@ -1,9 +1,15 @@
-body {
-    background-color: black;
-}
 .flex {
     display: flex;
 }
+
+.flex-centered {
+    justify-content: space-evenly;
+}
+
+.header {
+    background-color: black;
+}
+
 #maintitle {
     color: #ff0f0f;
     margin: 0px 0px 0px 2px;
@@ -17,5 +23,23 @@ body {
 
 #subtitle {
     color: #434b53;
-    margin: 3px 0px 3px 0px ;
+    margin: 3px 3px 3px 3px;
 }
+
+.direction-links {
+    border-color: white;
+    background-color: white;
+}
+
+.direction-links a {
+    color: red;
+}
+
+.direction-links :active {
+    color: blue;
+}
+
+#team-photo{
+    width: 100%;
+}
+
