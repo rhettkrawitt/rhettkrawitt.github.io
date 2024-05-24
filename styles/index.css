@@ -50,3 +50,8 @@
 span.coach {
     color: darkred;
 }
+
+.captain {
+    font-weight: bolder;
+    color: red;
+}
