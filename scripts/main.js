@@ -1,23 +1,32 @@
-let OnlySkipBtn = document.querySelector(button.OnlySkipBtn);
+let sailors = document.getElementById("sailors").children;
+let OnlySkipBtn = document.querySelector("button.SkipOnlyBtn");
 
 OnlySkipBtn.addEventListener("click", () => {
-    let crews = document.getElementsByClassName("crew");
-    for (let i = 0; i < crews.length; i++){
-        crews.style.color = "white"
+    for (let i = 0; i < sailors.length; i++){
+        if (sailors[i].classList.contains("skipper")){
+            sailors[i].style.display = "list-item";
+        } else {
+            sailors[i].style.display = "none";
+        }
     }
 })
 
-let OnlyCrewBtn = document.querySelector(button.OnlyCrewBtn);
+let OnlyCrewBtn = document.querySelector("button.CrewOnlyBtn");
 
 OnlyCrewBtn.addEventListener("click", () => {
-    let skippers = document.getElementsByClassName("crew");
-    for (let i = 0; i < skippers.length; i++){
-        skippers.style.color = "white"
+    for (let i = 0; i < sailors.length; i++){
+        if (sailors[i].classList.contains("crew")){
+            sailors[i].style.display = "list-item";
+        } else {
+            sailors[i].style.display = "none";
+        }
     }
 })
 
-let ShowAllBtn = document.querySelector(button.ShowAll);
+let ShowAllBtn = document.querySelector("button.ShowAllBtn");
 
 ShowAllBtn.addEventListener("click", () => {
-    let all = document.getElementsByClassName("crew");
+    for (let i = 0; i < sailors.length; i++){
+        sailors[i].style.display = "list-item";
+    }
 })
