@@ -1,0 +1,22 @@
+.flex {
+    display: flex;
+}
+
+.flex-centered {
+    justify-content: space-evenly;
+}
+
+.header {
+    background-color: black;
+}
+
+#maintitle {
+    color: #ff0f0f;
+    margin: 0px 0px 0px 2px;
+    font-size: 100px;
+}
+
+.logo {
+    width: 15%;
+    height: 15%;
+}
