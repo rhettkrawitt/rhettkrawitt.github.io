@@ -1,3 +1,7 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .flex {
     display: flex;
 }
@@ -51,7 +55,32 @@ span.coach {
     color: darkred;
 }
 
+.description {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
 .captain {
     font-weight: bolder;
     color: red;
+}
+
+.senior::after {
+    content: " '24";
+}
+
+.junior::after {
+    content: " '25";
+}
+
+.sophmore::after {
+    content: " '26";
+}
+
+.freshman::after {
+    content: " '27";
+}
+
+ul > li.coach {
+    text-decoration: underline;
+    font-weight: bold;
 }
