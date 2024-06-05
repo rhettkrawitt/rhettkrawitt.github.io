@@ -1,0 +1,56 @@
+.flex {
+    display: flex;
+}
+
+.flex-centered {
+    justify-content: space-evenly;
+}
+
+.header {
+    background-color: black;
+}
+
+#maintitle {
+    color: #ff0f0f;
+    margin: 0px 0px 0px 2px;
+    font-size: 100px;
+}
+
+.logo {
+    width: 15%;
+    height: 15%;
+}
+
+.animation {
+    margin-top: 5px;
+    animation-name: scrolling-subtitle;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes scrolling-subtitle {
+    from {
+        transform: translateX(500px);
+    }
+}
+
+.dan-photo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.dan-photo img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    transition: ease 1s;
+    opacity: 0.7;
+}
+
+.dan-photo img:hover {
+    opacity: 1;
+    transform: scale(1.15);
+    
+}

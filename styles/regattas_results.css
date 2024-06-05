@@ -33,3 +33,7 @@ img {
     width: 70%;
     height: auto;
 }
+
+button > a {
+    color: black;
+}
