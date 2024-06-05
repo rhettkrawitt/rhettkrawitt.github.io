@@ -35,13 +35,13 @@
     }
 }
 
-.dan-photo {
+.transforming-photo {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.dan-photo img {
+.transforming-photo img {
     width: 80%;
     height: auto;
     object-fit: cover;
@@ -49,8 +49,7 @@
     opacity: 0.7;
 }
 
-.dan-photo img:hover {
+.transforming-photo img:hover {
     opacity: 1;
     transform: scale(1.15);
-    
 }

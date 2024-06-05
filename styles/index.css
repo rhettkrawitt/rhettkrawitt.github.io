@@ -80,7 +80,23 @@ span.coach {
     content: " '27";
 }
 
-ul > li.coach {
-    text-decoration: underline;
+.coach-linking {
+    display: flex;
+    color: black;
+    flex-wrap: wrap;
+}
+
+.coach-linking li {
     font-weight: bold;
+    transition: ease 1s;
+}
+
+li > a {
+    color: black;
+}
+
+.coach-linking li:hover {
+    transform: translateY(3px) scale(1.07);
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 3px black
 }
