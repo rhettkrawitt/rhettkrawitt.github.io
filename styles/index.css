@@ -88,7 +88,7 @@ span.coach {
     transition: ease 1s;
 }
 
-li > a {
+div > a {
     color: black;
 }
 
