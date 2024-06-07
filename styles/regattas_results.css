@@ -37,3 +37,7 @@ img {
 button > a {
     color: black;
 }
+
+#caption {
+    margin-top: 3px;
+}

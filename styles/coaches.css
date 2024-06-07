@@ -53,3 +53,7 @@
     opacity: 1;
     transform: scale(1.15);
 }
+
+button > a {
+    color: black;
+}
