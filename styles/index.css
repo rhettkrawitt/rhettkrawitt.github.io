@@ -30,12 +30,9 @@ body {
     margin: 3px 3px 3px 3px;
 }
 
-.direction-links {
+.direction-links button {
     border-color: white;
     background-color: white;
-}
-
-.direction-links a {
     color: red;
 }
 
@@ -86,7 +83,7 @@ span.coach {
     flex-wrap: wrap;
 }
 
-.coach-linking li {
+.coach-linking a {
     font-weight: bold;
     transition: ease 1s;
 }
@@ -95,7 +92,7 @@ li > a {
     color: black;
 }
 
-.coach-linking li:hover {
+.coach-linking a:hover {
     transform: translateY(3px) scale(1.07);
     background-color: antiquewhite;
     box-shadow: 5px 5px 3px black

@@ -33,15 +33,27 @@ body {
     font-style: italic;
 }
 
+.skipper {
+    font-weight: bold;
+}
+
+.crew {
+    font-style: italic;
+}
+
+.coach {
+    font-weight: bold;
+}
+
 img {
     width: 70%;
     height: auto;
 }
 
-button > a {
-    color: black;
-}
-
 #caption {
     margin-top: 3px;
+}
+
+a > button {
+    color: black;
 }

@@ -58,6 +58,6 @@ body {
     transform: scale(1.15);
 }
 
-button > a {
+a > button {
     color: black;
 }
